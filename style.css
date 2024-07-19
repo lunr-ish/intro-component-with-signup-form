@@ -1,0 +1,18 @@
+:root {
+  /* COLOR */
+  --clr-red-400: 0 100% 74%;
+  --clr-green-400: 154 59% 51%;
+  --clr-blue-200: 246 25% 77%;
+  --clr-blue-400: 248 32% 49%;
+  --clr-blue-700: 249 10% 26%;
+  --clr-white: 0 0% 100%;
+
+  /* FONT FAMILY */
+  --ff-poppins: "Poppins", sans-serif;
+
+  /* FONT WEIGHT */
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+}
