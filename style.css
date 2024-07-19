@@ -70,3 +70,21 @@ a {
 .semibold {
   font-weight: var(--fw-semibold);
 }
+
+/* BODY */
+
+body {
+  font-family: var(--ff-poppins);
+  font-weight: var(--fw-normal);
+  background: hsl(var(--clr-red-400)) url("./images/bg-intro-mobile.png")
+    no-repeat center/cover;
+  color: hsl(var(--clr-white));
+  text-align: center;
+  padding: 1.5rem;
+}
+
+@media (min-width: 48rem) {
+  body {
+    background-image: url("./images/bg-intro-desktop.png");
+  }
+}
