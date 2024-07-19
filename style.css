@@ -265,6 +265,10 @@ input {
 }
 
 @media (min-width: 64rem) {
+  .hero__form {
+    padding: 2.5rem;
+  }
+
   input {
     padding-left: 2rem;
   }
